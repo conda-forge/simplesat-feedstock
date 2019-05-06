@@ -10,7 +10,6 @@ Feedstock license: BSD 3-Clause
 Summary: SAT solver for use in Enstaller, based on the MiniSat implementation
 
 
-
 Current build status
 ====================
 
