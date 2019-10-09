@@ -1,5 +1,5 @@
 {% set name = "simplesat" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: afc4a266d1875666a206424982846ae1f3db6c57e91088e94964fb440179179e
+  sha256: 1943f32735b03b048e20953a0145b2b61d2eb7a9dcc471a74f214afe9fa8d858
 
 build:
   number: 0
