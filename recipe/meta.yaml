@@ -10,7 +10,8 @@ source:
   sha256: 1943f32735b03b048e20953a0145b2b61d2eb7a9dcc471a74f214afe9fa8d858
 
 build:
-  number: 1
+  number: 2
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -22,7 +23,7 @@ requirements:
     - attrs >=17.4.0
     - okonomiyaki >=0.16.6
     - six >=1.10.0
-    - enum34  # [py27]
+    - enum34
 
 test:
   imports:
